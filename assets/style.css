@@ -1,3 +1,4 @@
+/*=============== BASE ===============*/
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -6,6 +7,8 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+/*=============== HEADER ===============*/
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -42,6 +45,7 @@ body {
 	width: 20px;
 }
 
+/*=============== ABOUT ===============*/
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -71,54 +75,66 @@ body {
 	width: 100%;
 
 }
+
 #about-me {
 	flex: 2
 }
+
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
+
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
 }
+
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
 
+/*=============== PROJECTS ===============*/
 #gallery {
 	/*	min-height: 100vh; */
 }
+
 .title{
 	text-align: center;
 	padding-block: 2em;
 }
+
 .gallery .nav {
 	justify-content: center;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
 .nav-pills .nav-link {
 	color: #000
 }
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
 .item-column::after{
 	content: "";
 	display: block;
 	padding-bottom: 100%;
 
 }
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -126,6 +142,7 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -136,6 +153,7 @@ body {
 	font-size: 24px;
 }
 
+/*=============== QUOTE ===============*/
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -143,23 +161,27 @@ body {
 	margin: auto;
 	padding-block: 3em;
 }
+
 .quote__text {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
 
 }
+
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
 }
 
+/*=============== SERVICES ===============*/
 #services {
 	margin: auto;
 	background-color: #A8D5D8 ;
 	position: relative;
 }
+
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
@@ -190,6 +212,7 @@ body {
 	z-index: 1;
 }
 
+/*=============== CONTACT ===============*/
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -201,6 +224,7 @@ body {
 #contact .container {
 	display: flex;
 }
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
@@ -211,6 +235,7 @@ body {
 	right: 0;
 	z-index: -1;
 }
+
 .form-container {
 	flex : 2;
 
@@ -239,11 +264,14 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
 
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -260,10 +288,10 @@ input[type="submit"] {
 	}
 }
 
+/* For medium devices */
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
@@ -293,7 +321,6 @@ input[type="submit"] {
 	.service__description{
 		margin-bottom: 1em;
 	}
-
 	#services .container::before{
 		width: 30%;
 		height: 100%;
@@ -302,7 +329,6 @@ input[type="submit"] {
 		left: auto;
 		z-index: 0;
 	}
-
 	#contact .container {
 		flex-direction: column;
 	}
@@ -319,6 +345,7 @@ input[type="submit"] {
 	}
 }
 
+/* For small devices */
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
@@ -353,4 +380,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
