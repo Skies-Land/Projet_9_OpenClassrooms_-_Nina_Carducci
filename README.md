@@ -3,6 +3,7 @@ Optimisation globale du site tant sur les performances que sur le SEO.
 
 ##
 ### Outils :
+- [W3C](https://validator.w3.org/#validate_by_upload)
 - [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr)
 - [Wave](https://wave.webaim.org/)
 
