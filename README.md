@@ -7,6 +7,7 @@ Optimisation globale du site tant sur les performances que sur le SEO.
 - [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr)
 - [Wave](https://wave.webaim.org/)
 - [Schema.org](https://schema.org/docs/documents.html)
+- [Résultat Enrichis](https://search.google.com/test/rich-results?hl=fr)
 
 ### Objectif du projet :
 - Optimiser la performance d'un site web

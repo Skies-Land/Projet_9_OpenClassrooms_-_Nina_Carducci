@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<!--=============== BALISES META ===============-->
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<meta name="robots" content="index, follow">
+		<meta name="description" content="Site web de Nina Carducci, photographe professionnel, basé à Bordeaux.">
+		<meta name="author" content="Nina Carducci">
+		<meta name="copyright" content="© Nina Carducci">
 
-		<!--=============== BALISE META INSTAGRAM ===============-->
+		<!-- Meta données pour Instagram -->
 		<meta property="insta:username" content="ninacarducci.photo">
+
+		<!-- Meta données pour Twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
+		<meta name="twitter:description" content="Site web de Nina Carducci, photographe professionnel, basé à Bordeaux.">
+		<meta name="twitter:image" content="https://raw.githubusercontent.com/Skies-Land/Projet_9_OpenClassrooms_-_Nina_Carducci/main/assets/images/nina.webp">
+
+		<!-- Meta données pour Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
+		<meta property="og:description" content="Site web de Nina Carducci, photographe professionnel, basé à Bordeaux.">
+		<meta property="og:url" content="https://skies-land.github.io/Projet_9_OpenClassrooms_-_Nina_Carducci/">
+		<meta property="og:image" content="https://raw.githubusercontent.com/Skies-Land/Projet_9_OpenClassrooms_-_Nina_Carducci/main/assets/images/nina.webp">
+		<meta property="og:locale" content="fr_FR">
 
 		<!--=============== SCHEMA.ORG ===============-->
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "Person",
+				"@type": "LocalBusiness",
 				"name": "Nina Carducci",
-				"jobTitle": "Photographe",
+				"description": "Photographe professionnel basé à Bordeaux, spécialisé dans les portraits, les mariages et les concerts.",
+				"image": "https://raw.githubusercontent.com/Skies-Land/Projet_9_OpenClassrooms_-_Nina_Carducci/main/assets/images/nina.webp",
+				"url": "https://skies-land.github.io/Projet_9_OpenClassrooms_-_Nina_Carducci/",
+				"telephone": "05 56 67 78 89",
+				"priceRange": "50€ - 400€",
 				"address": {
 					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
 					"addressLocality": "Bordeaux",
 					"postalCode": "33200",
-					"streetAddress": "68 avenue Alsace-Lorraine"
+					"addressCountry": "FR"
 				},
-				"telephone": "05 56 67 78 89",
-				"contactPoint": {
-					"@type": "ContactPoint",
-					"telephone": "05 56 67 78 89",
-					"contactType": "Service client",
-					"availableLanguage": ["Français"],
-					"hoursAvailable": {
-						"@type": "OpeningHoursSpecification",
-						"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-						"opens": "10:00",
-						"closes": "19:00"
-					}
+				"openingHoursSpecification": {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+					"opens": "10:00",
+					"closes": "19:00"
 				}
 			}
 		</script>
@@ -39,6 +56,9 @@
 		<!--=============== CSS ===============-->
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 		<link rel="stylesheet" href="./assets/style.css">
+
+		<!--=============== FAVICON ===============-->
+		<link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 
 		<!--=============== GOOGLE FONTS ===============-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +71,8 @@
 		<script src="./assets/maugallery.js"></script>
 		<script src="./assets/scripts.js"></script>
 
-		<title>Nina Carducci - Photographe</title>
+		<title>Nina Carducci - Photographe professionnelle à Bordeaux</title>
+
 	</head>
 
 	<body>
