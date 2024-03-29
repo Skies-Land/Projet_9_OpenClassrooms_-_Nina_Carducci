@@ -4,6 +4,38 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<!--=============== BALISE META INSTAGRAM ===============-->
+		<meta property="insta:username" content="ninacarducci.photo">
+
+		<!--=============== SCHEMA.ORG ===============-->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name": "Nina Carducci",
+				"jobTitle": "Photographe",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"streetAddress": "68 avenue Alsace-Lorraine"
+				},
+				"telephone": "05 56 67 78 89",
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"telephone": "05 56 67 78 89",
+					"contactType": "Service client",
+					"availableLanguage": ["Français"],
+					"hoursAvailable": {
+						"@type": "OpeningHoursSpecification",
+						"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+						"opens": "10:00",
+						"closes": "19:00"
+					}
+				}
+			}
+		</script>
+
 		<!--=============== CSS ===============-->
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 		<link rel="stylesheet" href="./assets/style.css">
